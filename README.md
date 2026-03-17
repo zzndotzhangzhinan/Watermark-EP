@@ -4,6 +4,5 @@ This repository contains the Python code to reproduce numerical experiments in t
 
 There are several folds in this repository:
 
-1. Fold ``simu'' contains code for the simulation results in the paper, i.e., Figure 1 for the simulation study section.
-2. Fold ``llm'' contains code for Figure 2 in the paper.
-3. Fold ``human_edit'' contains code for Figure 3 in the paper.
+1. Fold ``simu'' contains code for the simulation results in the paper.
+2. Fold ``llm'' contains code for implementing the detection methods on open-source LLMs.
