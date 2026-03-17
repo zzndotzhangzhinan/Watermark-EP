@@ -198,6 +198,7 @@ elif args.method == "gumbel":
     UN = np.random.uniform(0, 1, size=Ys.shape)
 
     Ys = (1-PI)*Ys + PI*UN
+    # use  Ys = Ys if there is no human edit
 
     result_dict = dict()
     result_dict["top_probs"] = highest_probs.tolist()
